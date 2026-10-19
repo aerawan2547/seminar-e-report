@@ -180,6 +180,9 @@ img{max-width:100%}
 .member-details h3{font-size:1.3rem;color:var(--navy)}
 .member-role{display:inline-block;font-size:.88rem;font-weight:500;padding:2px 14px;border-radius:20px;margin:4px 0 10px;background:var(--cyan-soft)}
 .member-role.text-orange{background:#fff1da}.member-role.text-alert{background:#fde8e5}
+.member-link{display:inline-flex;align-items:center;gap:8px;margin-top:4px;padding:7px 18px;border-radius:30px;font-size:.92rem;font-weight:500;text-decoration:none;color:#fff;background:linear-gradient(135deg,var(--cyan),var(--cyan-d));transition:.3s}
+.member-link:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,183,205,.4)}
+.member-link i{font-size:.8rem}
 
 /* Footer + scroll top */
 .site-footer{margin-top:50px;padding:26px 0;background:var(--navy);color:rgba(255,255,255,.75);font-size:.9rem;border-top:4px solid var(--cyan)}
